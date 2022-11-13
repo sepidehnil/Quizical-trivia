@@ -1,0 +1,165 @@
+:root {
+  font-family: inter
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: centre;
+  margin: 0;
+  background: #F5F7FB;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative
+}
+
+.answers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  margin: auto;
+  text-align: center;
+}
+
+.Intro--title{
+  margin: 0;
+  font-size: 31.25px;
+  line-height: 37px;
+  color: #293264;
+  font-family:  karla;
+}
+
+.Intro--desc {
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+  margin-bottom: 25px
+}
+
+.intro > button, .qbutton {
+  font-family: inter;
+  font-weight: 500;
+  font-size: 16px;
+  color: #F5F7FB;
+  background: #4D5B9E;
+  border-radius: 15px;
+  border: none;
+  padding: 15px 40px
+}
+
+.qbutton {
+  margin-top: 20px;
+  margin-bottom: 10px
+}
+
+.blob1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.blob2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.blob1-start {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10%
+}
+
+.blob2-start {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 10%
+}
+
+
+.answers > .incorrectClicked {
+  background: #F8BCBC;;
+  cursor: not-allowed;
+  pointer-events: none;
+  color: #293264;
+  border: none
+}
+
+.answers > .correctClicked {
+  background: #94D7A2;
+  cursor: not-allowed;
+  pointer-events: none;
+  color: #293264;
+  border: none
+}
+
+.question {
+  text-align: center;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 10px;
+}
+
+.answers .btn-disable
+      {
+      color: #5667c7;
+      cursor: not-allowed;
+      pointer-events: none;
+      border: none
+      }
+
+.questions {
+  text-align: center;
+  width: 90%
+}
+
+.Question-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #293264
+}
+
+.test {
+  background: black
+}
+
+.answers > button {
+  border: 0.794239px solid #8e94ad;
+  background: white;
+  border-radius: 7.94239px;
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 15px
+  
+}
+
+.answers > button:hover {
+  background: #D6DBF5;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finalScore {
+  font-size: 16px;
+  color: #293264;
+  margin-right: 20px;
+  margin-top: 20px
+}
